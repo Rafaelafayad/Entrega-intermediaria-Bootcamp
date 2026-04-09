@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Autocuidado Diário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Autocuidado</h2>
+
+  <ul id="lista">
+    <li>
+      <div class="item-texto">
+        <input type="checkbox">
+        <span>Beber água</span>
+      </div>
+    </li>
+
+    <li>
+      <div class="item-texto">
+        <input type="checkbox">
+        <span>Dormir bem</span>
+      </div>
+    </li>
+
+    <li>
+      <div class="item-texto">
+        <input type="checkbox">
+        <span>Fazer exercício</span>
+      </div>
+    </li>
+
+    <li>
+      <div class="item-texto">
+        <input type="checkbox">
+        <span>Comer saudável</span>
+      </div>
+    </li>
+  </ul>
+
+  <!-- adicionar -->
+  <div class="adicionar-area">
+    <input type="text" id="novaTarefa" placeholder="Ex: Hidratar a pele">
+    <button onclick="adicionar()">Adicionar</button>
+  </div>
+
+  <!-- espaço -->
+  <div class="espaco"></div>
+
+  <!-- finalizar -->
+  <button class="reset" onclick="resetar()">Finalizar dia</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

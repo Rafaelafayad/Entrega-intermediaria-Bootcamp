@@ -1,0 +1,104 @@
+body {
+  font-family: Arial;
+  background: #fdf1f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* container */
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  width: 320px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.08);
+}
+
+/* título */
+h2 {
+  text-align: center;
+  color: #d16d8a;
+}
+
+/* lista */
+li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* texto + checkbox */
+.item-texto {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ações */
+.acoes {
+  display: flex;
+  gap: 5px;
+}
+
+/* área adicionar */
+.adicionar-area {
+  margin-top: 15px;
+  display: flex;
+  gap: 5px;
+}
+
+.adicionar-area input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #f3c6cf;
+  border-radius: 8px;
+}
+
+.adicionar-area button {
+  padding: 8px 10px;
+  background: #f4a6b8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.adicionar-area button:hover {
+  background: #e58ca3;
+}
+
+/* botões pequenos */
+.remover, .editar {
+  background: transparent;
+  border: none;
+  color: #d16d8a;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.remover:hover, .editar:hover {
+  color: #a94461;
+}
+
+/* espaço entre adicionar e finalizar */
+.espaco {
+  height: 10px;
+}
+
+/* botão finalizar */
+.reset {
+  width: 100%;
+  padding: 10px;
+  background: #d16d8a;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background: #b85c77;
+}

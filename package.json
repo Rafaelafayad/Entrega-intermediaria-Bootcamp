@@ -1,0 +1,21 @@
+{
+  "name": "autocuidado-app",
+  "version": "1.0.0",
+  "description": "Checklist de autocuidado diário",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "author": "SEU NOME",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "jest": "^29.0.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}
