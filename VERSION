@@ -1,8 +1,1 @@
-1.0.0 -- o app possuia a opção de marcar alguns hábitos fixos como feitos ou não, e finalizar o dia.
-
-1.1.0 -- foi integrada uma nova funcionalidade de adicionar algum hábito desejado nas opções.
-
-1.2.1 -- foi integrada a opção de excluir ou editar o hábito que pode ser adicionado e bugs com layout foram corrigidos.
-
-1.3.1 -- foi feita uma atualização que aparecem avisos de acordo com o que foi feito, avisando se o espaço de adicionar um hábito está vazio,
-confirmação se deseja mesmo editar ou excluir um hábito adicionado e quando finaliza o dia aparece uma mensagem que a ação foi concluída com sucesso.
+1.0.0
