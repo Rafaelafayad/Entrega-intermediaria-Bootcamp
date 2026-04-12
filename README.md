@@ -4,10 +4,6 @@ Solução: Devido à isso foi feita uma aplicação simples que permite ao usuá
 
 O Projeto é um aplicativo que visa o Autocuidado.
 
-Descrição do problema: Muitas pessoas esquecem de cuidar da própria saúde no dia a dia, negligenciando hábitos básicos como hidratação e descanso.
-
-Solução: Uma aplicação simples de checklist diário para incentivar hábitos saudáveis.
-
 Público-alvo: Pessoas com rotina corrida, estudantes e usuários que desejam melhorar seus hábitos.
 
 Funcionalidades:
