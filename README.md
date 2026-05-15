@@ -1,6 +1,6 @@
 Problema Real: Muitas pessoas esquecem de realizar hábitos básicos de autocuidado, como beber água ou descansar, especialmente devido à rotina corrida e uso excessivo de tecnologia.
 
-Solução: Devido à isso foi feita uma aplicação simples que permite ao usuário acompanhar e marcar hábitos diários, incentivando a criação de uma rotina saudável.
+Solução: Pensando nisso, foi desenvolvida uma aplicação simples que permite ao usuário acompanhar e marcar hábitos diários, incentivando a criação de uma rotina saudável de forma prática.
 
 O Projeto é um aplicativo que visa o Autocuidado.
 
@@ -11,8 +11,14 @@ Funcionalidades:
 - Adicionar novos hábitos personalizados; 
 - Editar hábitos existentes;  
 - Remover hábitos com confirmação; 
+- Exibição de clima em tempo real (Brasília-DF);
+- Relógio com horário de Brasília;
+- Mensagens de autocuidado conforme a temperatura;
 - Resetar lista diariamente; 
 - Exibição de mensagem ao finalizar o dia ("Dia finalizado!");  
+
+API Utilizada
+A aplicação utiliza a API pública Open-Meteo para exibir a temperatura atual em tempo real de Brasília - DF.
 
 Tecnologias:
 - HTML
@@ -21,6 +27,7 @@ Tecnologias:
 - Node.js
 - Jest
 - ESLint
+- GitHub Actions
 
 Instalação:
 npm install
@@ -38,7 +45,7 @@ Autor:
 Rafaela Maciel Fayad
 
 Repositório:
-([git@github.com:Rafaelafayad/Projeto-inicial-Bootcamp.git](https://github.com/Rafaelafayad/Projeto-inicial-Bootcamp))
+([git@github.com:Rafaelafayad/Projeto-intermediaria-Bootcamp.git](https://github.com/Rafaelafayad/Projeto-intermediaria-Bootcamp.git))
 
 Testes: 
 npm test
