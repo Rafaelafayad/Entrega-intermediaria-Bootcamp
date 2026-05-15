@@ -8,7 +8,9 @@ module.exports = [
         confirm: "readonly",
         prompt: "readonly",
         module: "readonly",
-        require: "readonly"
+        require: "readonly",
+        fetch: "readonly",
+        setInterval: "readonly"
       }
     },
     rules: {
