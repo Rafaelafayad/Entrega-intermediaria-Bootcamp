@@ -49,15 +49,3 @@ Repositório:
 
 Testes: 
 npm test
-
-> autocuidado-app@1.0.0 test
-> jest
-
- PASS  tests/app.test.js
-  √ deve resetar todos os itens para falso (2 ms)
-                                                                                                                                        
-Test Suites: 1 passed, 1 total                                                                                                          
-Tests:       1 passed, 1 total                                                                                                          
-Snapshots:   0 total
-Time:        0.53 s
-Ran all test suites.
