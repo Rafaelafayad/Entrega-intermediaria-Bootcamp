@@ -58,4 +58,86 @@ function resetarLista(lista) {
   return lista.map(() => false);
 }
 
-module.exports = { resetarLista };
+if (typeof module !== "undefined") {
+  module.exports = { resetarLista };
+}
+
+
+/* CLIMA */
+
+const temperatura =
+  document.getElementById("temperatura");
+
+const dicaClima =
+  document.getElementById("dica-clima");
+
+async function carregarClima() {
+
+  try {
+
+    
+    const resposta = await fetch(
+      "https://api.open-meteo.com/v1/forecast?latitude=-15.793889&longitude=-47.882778&current=temperature_2m"
+    );
+
+    const dados = await resposta.json();
+
+    const temp =
+      dados.current.temperature_2m;
+
+    temperatura.innerHTML =
+      `${temp}°C em Brasília - DF`;
+
+    if (temp >= 30) {
+
+      dicaClima.innerHTML =
+        "☀️ O dia está quente! Lembre-se de beber água e descansar.";
+
+    }
+
+    else if (temp <= 18) {
+
+      dicaClima.innerHTML =
+        "❄️ O clima está frio. Tire um tempinho para se aquecer e relaxar.";
+
+    }
+
+    else {
+
+      dicaClima.innerHTML =
+        "🌷 Clima agradável! Aproveite o dia e lembre-se de cuidar de você.";
+
+    }
+
+  }
+
+  catch (erro) {
+
+    temperatura.innerHTML =
+      "Erro ao carregar clima.";
+
+  }
+
+}
+
+carregarClima();
+
+
+/* RELÓGIO */
+
+function atualizarHorario() {
+
+  const agora = new Date();
+
+  const horario =
+    agora.toLocaleTimeString("pt-BR", {
+      timeZone: "America/Sao_Paulo"
+    });
+
+  document.getElementById("relogio")
+    .innerHTML = horario;
+}
+
+setInterval(atualizarHorario, 1000);
+
+atualizarHorario();
