@@ -39,7 +39,7 @@ Lint:
 npm run lint
 
 Versão:
-1.0.0
+1.1.0
 
 Autor:
 Rafaela Maciel Fayad
