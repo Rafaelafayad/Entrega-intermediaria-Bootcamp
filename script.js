@@ -75,6 +75,7 @@ async function carregarClima() {
 
   try {
 
+    
     const resposta = await fetch(
       "https://api.open-meteo.com/v1/forecast?latitude=-15.793889&longitude=-47.882778&current=temperature_2m"
     );
