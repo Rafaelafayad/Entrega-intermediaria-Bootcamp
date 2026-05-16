@@ -1,21 +1,31 @@
-{
-  "name": "autocuidado-app",
-  "version": "1.0.0",
-  "description": "Checklist de autocuidado diário",
-  "main": "script.js",
-  "scripts": {
-    "test": "jest",
-    "lint": "eslint ."
+module.exports = [
+  {
+    files: ["**/*.js"],
+    languageOptions: {
+      globals: {
+        document: "readonly",
+        alert: "readonly",
+        confirm: "readonly",
+        prompt: "readonly",
+        module: "readonly",
+        require: "readonly",
+        fetch: "readonly",
+        setInterval: "readonly"
+      }
+    },
+    rules: {
+      semi: "error",
+      "no-unused-vars": "off",
+      "no-undef": "off"
+    }
   },
-  "author": "SEU NOME",
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^9.0.0",
-    "jest": "^29.0.0"
-  },
-  "directories": {
-    "test": "tests"
-  },
-  "keywords": [],
-  "type": "commonjs"
-}
+  {
+    files: ["tests/**/*.js"],
+    languageOptions: {
+      globals: {
+        test: "readonly",
+        expect: "readonly"
+      }
+    }
+  }
+];
